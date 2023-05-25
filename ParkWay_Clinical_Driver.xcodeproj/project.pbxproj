@@ -1,0 +1,562 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B14E71CD29F835A600C63684 /* Driver_API_Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = B14E71CC29F835A600C63684 /* Driver_API_Test.swift */; };
+		B14E71D029F839F400C63684 /* AllDriverHappyPath.json in Resources */ = {isa = PBXBuildFile; fileRef = B14E71CF29F839F400C63684 /* AllDriverHappyPath.json */; };
+		B1536E8B29F609520099271C /* ParkWay_Clinical_DriverTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1536E8A29F609520099271C /* ParkWay_Clinical_DriverTests.swift */; };
+		B1536E9529F61D4D0099271C /* NetworkClientTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1536E9429F61D4D0099271C /* NetworkClientTest.swift */; };
+		B15C9C3E29935CCE008B254D /* DriverRouteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B15C9C3D29935CCE008B254D /* DriverRouteViewController.swift */; };
+		B15C9C402993601F008B254D /* DriverRouteTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B15C9C3F2993601F008B254D /* DriverRouteTableViewCell.swift */; };
+		B15C9C42299367F1008B254D /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = B15C9C41299367F1008B254D /* Model.swift */; };
+		B15C9C4629945442008B254D /* CustomerRouteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B15C9C4529945442008B254D /* CustomerRouteViewController.swift */; };
+		B1864CD4298C11B500A7EAD1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1864CD3298C11B500A7EAD1 /* AppDelegate.swift */; };
+		B1864CD6298C11B500A7EAD1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1864CD5298C11B500A7EAD1 /* SceneDelegate.swift */; };
+		B1864CD8298C11B500A7EAD1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1864CD7298C11B500A7EAD1 /* ViewController.swift */; };
+		B1864CDD298C11BB00A7EAD1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B1864CDC298C11BB00A7EAD1 /* Assets.xcassets */; };
+		B1864CE0298C11BB00A7EAD1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B1864CDE298C11BB00A7EAD1 /* LaunchScreen.storyboard */; };
+		B1864CE8298C181F00A7EAD1 /* DriverLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1864CE7298C181F00A7EAD1 /* DriverLoginViewController.swift */; };
+		B1864CEB298C229100A7EAD1 /* NetworkLayerClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1864CEA298C229100A7EAD1 /* NetworkLayerClient.swift */; };
+		B1864CED298C22A900A7EAD1 /* NetworkLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1864CEC298C22A900A7EAD1 /* NetworkLayer.swift */; };
+		B1864CEF298C24B000A7EAD1 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1864CEE298C24B000A7EAD1 /* Constants.swift */; };
+		B1864CF1298C2B1A00A7EAD1 /* DriverAuthentication.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1864CF0298C2B1A00A7EAD1 /* DriverAuthentication.swift */; };
+		B1864CF3298C35BF00A7EAD1 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1864CF2298C35BF00A7EAD1 /* SignUpViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B1536E8C29F609520099271C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B1864CC8298C11B500A7EAD1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B1864CCF298C11B500A7EAD1;
+			remoteInfo = ParkWay_Clinical_Driver;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B14E71CC29F835A600C63684 /* Driver_API_Test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Driver_API_Test.swift; sourceTree = "<group>"; };
+		B14E71CF29F839F400C63684 /* AllDriverHappyPath.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = AllDriverHappyPath.json; sourceTree = "<group>"; };
+		B1536E8829F609520099271C /* ParkWay_Clinical_DriverTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ParkWay_Clinical_DriverTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B1536E8A29F609520099271C /* ParkWay_Clinical_DriverTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParkWay_Clinical_DriverTests.swift; sourceTree = "<group>"; };
+		B1536E9429F61D4D0099271C /* NetworkClientTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkClientTest.swift; sourceTree = "<group>"; };
+		B15C9C3D29935CCE008B254D /* DriverRouteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DriverRouteViewController.swift; sourceTree = "<group>"; };
+		B15C9C3F2993601F008B254D /* DriverRouteTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DriverRouteTableViewCell.swift; sourceTree = "<group>"; };
+		B15C9C41299367F1008B254D /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		B15C9C4529945442008B254D /* CustomerRouteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomerRouteViewController.swift; sourceTree = "<group>"; };
+		B1864CD0298C11B500A7EAD1 /* ParkWay_Clinical_Driver.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ParkWay_Clinical_Driver.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B1864CD3298C11B500A7EAD1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B1864CD5298C11B500A7EAD1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		B1864CD7298C11B500A7EAD1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B1864CDC298C11BB00A7EAD1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B1864CDF298C11BB00A7EAD1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B1864CE1298C11BB00A7EAD1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B1864CE7298C181F00A7EAD1 /* DriverLoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DriverLoginViewController.swift; sourceTree = "<group>"; };
+		B1864CEA298C229100A7EAD1 /* NetworkLayerClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkLayerClient.swift; sourceTree = "<group>"; };
+		B1864CEC298C22A900A7EAD1 /* NetworkLayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkLayer.swift; sourceTree = "<group>"; };
+		B1864CEE298C24B000A7EAD1 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		B1864CF0298C2B1A00A7EAD1 /* DriverAuthentication.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DriverAuthentication.swift; sourceTree = "<group>"; };
+		B1864CF2298C35BF00A7EAD1 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B1536E8529F609520099271C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B1864CCD298C11B500A7EAD1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B14E71CE29F839D700C63684 /* Fixtures */ = {
+			isa = PBXGroup;
+			children = (
+				B14E71CF29F839F400C63684 /* AllDriverHappyPath.json */,
+			);
+			path = Fixtures;
+			sourceTree = "<group>";
+		};
+		B1536E8929F609520099271C /* ParkWay_Clinical_DriverTests */ = {
+			isa = PBXGroup;
+			children = (
+				B14E71CE29F839D700C63684 /* Fixtures */,
+				B1536E9329F61D320099271C /* NetworkTest */,
+				B1536E8A29F609520099271C /* ParkWay_Clinical_DriverTests.swift */,
+			);
+			path = ParkWay_Clinical_DriverTests;
+			sourceTree = "<group>";
+		};
+		B1536E9329F61D320099271C /* NetworkTest */ = {
+			isa = PBXGroup;
+			children = (
+				B1536E9429F61D4D0099271C /* NetworkClientTest.swift */,
+				B14E71CC29F835A600C63684 /* Driver_API_Test.swift */,
+			);
+			path = NetworkTest;
+			sourceTree = "<group>";
+		};
+		B15C9C3C29935C96008B254D /* Route */ = {
+			isa = PBXGroup;
+			children = (
+				B15C9C3D29935CCE008B254D /* DriverRouteViewController.swift */,
+				B15C9C3F2993601F008B254D /* DriverRouteTableViewCell.swift */,
+				B15C9C4529945442008B254D /* CustomerRouteViewController.swift */,
+			);
+			path = Route;
+			sourceTree = "<group>";
+		};
+		B1864CC7298C11B500A7EAD1 = {
+			isa = PBXGroup;
+			children = (
+				B15C9C41299367F1008B254D /* Model.swift */,
+				B1864CE9298C225700A7EAD1 /* Network */,
+				B1864CD2298C11B500A7EAD1 /* ParkWay_Clinical_Driver */,
+				B15C9C3C29935C96008B254D /* Route */,
+				B18EFB0F29BAC6680089BC35 /* TestFolder */,
+				B1536E8929F609520099271C /* ParkWay_Clinical_DriverTests */,
+				B1864CD1298C11B500A7EAD1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B1864CD1298C11B500A7EAD1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B1864CD0298C11B500A7EAD1 /* ParkWay_Clinical_Driver.app */,
+				B1536E8829F609520099271C /* ParkWay_Clinical_DriverTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B1864CD2298C11B500A7EAD1 /* ParkWay_Clinical_Driver */ = {
+			isa = PBXGroup;
+			children = (
+				B1864CD3298C11B500A7EAD1 /* AppDelegate.swift */,
+				B1864CD5298C11B500A7EAD1 /* SceneDelegate.swift */,
+				B1864CD7298C11B500A7EAD1 /* ViewController.swift */,
+				B1864CE7298C181F00A7EAD1 /* DriverLoginViewController.swift */,
+				B1864CF2298C35BF00A7EAD1 /* SignUpViewController.swift */,
+				B1864CDC298C11BB00A7EAD1 /* Assets.xcassets */,
+				B1864CDE298C11BB00A7EAD1 /* LaunchScreen.storyboard */,
+				B1864CE1298C11BB00A7EAD1 /* Info.plist */,
+				B1864CEE298C24B000A7EAD1 /* Constants.swift */,
+				B1864CF0298C2B1A00A7EAD1 /* DriverAuthentication.swift */,
+			);
+			path = ParkWay_Clinical_Driver;
+			sourceTree = "<group>";
+		};
+		B1864CE9298C225700A7EAD1 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				B1864CEA298C229100A7EAD1 /* NetworkLayerClient.swift */,
+				B1864CEC298C22A900A7EAD1 /* NetworkLayer.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		B18EFB0F29BAC6680089BC35 /* TestFolder */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = TestFolder;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B1536E8729F609520099271C /* ParkWay_Clinical_DriverTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B1536E9029F609520099271C /* Build configuration list for PBXNativeTarget "ParkWay_Clinical_DriverTests" */;
+			buildPhases = (
+				B1536E8429F609520099271C /* Sources */,
+				B1536E8529F609520099271C /* Frameworks */,
+				B1536E8629F609520099271C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B1536E8D29F609520099271C /* PBXTargetDependency */,
+			);
+			name = ParkWay_Clinical_DriverTests;
+			productName = ParkWay_Clinical_DriverTests;
+			productReference = B1536E8829F609520099271C /* ParkWay_Clinical_DriverTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B1864CCF298C11B500A7EAD1 /* ParkWay_Clinical_Driver */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B1864CE4298C11BB00A7EAD1 /* Build configuration list for PBXNativeTarget "ParkWay_Clinical_Driver" */;
+			buildPhases = (
+				B1864CCC298C11B500A7EAD1 /* Sources */,
+				B1864CCD298C11B500A7EAD1 /* Frameworks */,
+				B1864CCE298C11B500A7EAD1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ParkWay_Clinical_Driver;
+			productName = ParkWay_Clinical_Driver;
+			productReference = B1864CD0298C11B500A7EAD1 /* ParkWay_Clinical_Driver.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B1864CC8298C11B500A7EAD1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					B1536E8729F609520099271C = {
+						CreatedOnToolsVersion = 14.0;
+						TestTargetID = B1864CCF298C11B500A7EAD1;
+					};
+					B1864CCF298C11B500A7EAD1 = {
+						CreatedOnToolsVersion = 14.0;
+					};
+				};
+			};
+			buildConfigurationList = B1864CCB298C11B500A7EAD1 /* Build configuration list for PBXProject "ParkWay_Clinical_Driver" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B1864CC7298C11B500A7EAD1;
+			productRefGroup = B1864CD1298C11B500A7EAD1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B1864CCF298C11B500A7EAD1 /* ParkWay_Clinical_Driver */,
+				B1536E8729F609520099271C /* ParkWay_Clinical_DriverTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B1536E8629F609520099271C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B14E71D029F839F400C63684 /* AllDriverHappyPath.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B1864CCE298C11B500A7EAD1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1864CE0298C11BB00A7EAD1 /* LaunchScreen.storyboard in Resources */,
+				B1864CDD298C11BB00A7EAD1 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B1536E8429F609520099271C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B14E71CD29F835A600C63684 /* Driver_API_Test.swift in Sources */,
+				B1536E8B29F609520099271C /* ParkWay_Clinical_DriverTests.swift in Sources */,
+				B1536E9529F61D4D0099271C /* NetworkClientTest.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B1864CCC298C11B500A7EAD1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1864CED298C22A900A7EAD1 /* NetworkLayer.swift in Sources */,
+				B1864CF1298C2B1A00A7EAD1 /* DriverAuthentication.swift in Sources */,
+				B1864CD8298C11B500A7EAD1 /* ViewController.swift in Sources */,
+				B1864CD4298C11B500A7EAD1 /* AppDelegate.swift in Sources */,
+				B15C9C3E29935CCE008B254D /* DriverRouteViewController.swift in Sources */,
+				B1864CEB298C229100A7EAD1 /* NetworkLayerClient.swift in Sources */,
+				B1864CEF298C24B000A7EAD1 /* Constants.swift in Sources */,
+				B1864CF3298C35BF00A7EAD1 /* SignUpViewController.swift in Sources */,
+				B1864CE8298C181F00A7EAD1 /* DriverLoginViewController.swift in Sources */,
+				B1864CD6298C11B500A7EAD1 /* SceneDelegate.swift in Sources */,
+				B15C9C402993601F008B254D /* DriverRouteTableViewCell.swift in Sources */,
+				B15C9C42299367F1008B254D /* Model.swift in Sources */,
+				B15C9C4629945442008B254D /* CustomerRouteViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B1536E8D29F609520099271C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B1864CCF298C11B500A7EAD1 /* ParkWay_Clinical_Driver */;
+			targetProxy = B1536E8C29F609520099271C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B1864CDE298C11BB00A7EAD1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B1864CDF298C11BB00A7EAD1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B1536E8E29F609520099271C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 272W93BB23;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.DeepeshHaryani.ParkWay-Clinical-DriverTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ParkWay_Clinical_Driver.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ParkWay_Clinical_Driver";
+			};
+			name = Debug;
+		};
+		B1536E8F29F609520099271C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 272W93BB23;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.DeepeshHaryani.ParkWay-Clinical-DriverTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ParkWay_Clinical_Driver.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ParkWay_Clinical_Driver";
+			};
+			name = Release;
+		};
+		B1864CE2298C11BB00A7EAD1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B1864CE3298C11BB00A7EAD1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B1864CE5298C11BB00A7EAD1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 272W93BB23;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ParkWay_Clinical_Driver/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.DeepeshHaryani.ParkWay-Clinical-Driver";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B1864CE6298C11BB00A7EAD1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 272W93BB23;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ParkWay_Clinical_Driver/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.DeepeshHaryani.ParkWay-Clinical-Driver";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B1536E9029F609520099271C /* Build configuration list for PBXNativeTarget "ParkWay_Clinical_DriverTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B1536E8E29F609520099271C /* Debug */,
+				B1536E8F29F609520099271C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B1864CCB298C11B500A7EAD1 /* Build configuration list for PBXProject "ParkWay_Clinical_Driver" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B1864CE2298C11BB00A7EAD1 /* Debug */,
+				B1864CE3298C11BB00A7EAD1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B1864CE4298C11BB00A7EAD1 /* Build configuration list for PBXNativeTarget "ParkWay_Clinical_Driver" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B1864CE5298C11BB00A7EAD1 /* Debug */,
+				B1864CE6298C11BB00A7EAD1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B1864CC8298C11B500A7EAD1 /* Project object */;
+}

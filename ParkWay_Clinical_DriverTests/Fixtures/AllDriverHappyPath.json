@@ -1,0 +1,42 @@
+[
+    {
+        "Route": {
+            "RouteNo": 98,
+            "RouteName": "Usdddd",
+            "DriverId": 154,
+            "DriverName": "Driver 20",
+            "VehicleNo": "MH 0020",
+            "VehicleId": 85
+        },
+        "Customer": [
+            {
+                "CustomerId": 136,
+                "CustomerName": "Customer 20",
+                "StreetAddress": "4525 Broadway",
+                "City": "Union City",
+                "State": "",
+                "Zip": "07087",
+                "SpecimensCollected": 0,
+                "PickUpTime": "2023-04-25 05:20 PM",
+                "CollectionStatus": "Not Collected",
+                "IsSelected": true,
+                "Cust_Lat": 40.785164,
+                "Cust_Log": -74.018962
+            },
+            {
+                "CustomerId": 137,
+                "CustomerName": "Customer 21",
+                "StreetAddress": "112 48th St",
+                "City": "Union City",
+                "State": "",
+                "Zip": "07807",
+                "SpecimensCollected": 0,
+                "PickUpTime": "2023-04-25 06:22 PM",
+                "CollectionStatus": "Not Collected",
+                "IsSelected": true,
+                "Cust_Lat": 40.785164,
+                "Cust_Log": -74.018962
+            }
+        ]
+    }
+]
